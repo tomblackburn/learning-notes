@@ -199,7 +199,7 @@ Functional programming and object-oriented programming are **styles for writing
 
 You'll encounter developers who love functional programming and others who love object-oriented programming. However, contrary to popular opinion, FP and OOP are *not* always at odds with one another. They aren't opposites. Of the four pillars of OOP, [inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)) is the only one that doesn't fit with functional programming.
 
-![image.png](image.png)
+![images/oop_fp_venn.png.png](images/oop_fp_venn.png.png)
 
 Inheritance isn't seen in functional code due to the mutable classes that come along with it. Encapsulation, polymorphism and abstraction are still used all the time in functional programming.
 
@@ -294,7 +294,7 @@ print(squares)
 
 In Python, the built-in [map](https://docs.python.org/3/library/functions.html#map) function takes a function and an [iterable](https://docs.python.org/3/glossary.html#term-iterable) (in this case a list) as inputs. It returns an iterator that applies the function to every item, yielding the results.
 
-![image.png](image%201.png)
+![images/map.png](images/map.png)
 
 With `map`, we can operate on lists without using loops and nasty stateful variables. For example:
 
@@ -314,7 +314,7 @@ print(list(squared_nums))
 
 The built-in [filter](https://docs.python.org/3/library/functions.html#filter) function takes a function and an iterable (in this case a list) and returns a *new* iterable that only contains elements from the original iterable where the result of the function on that item returned `True`.
 
-![image.png](image%202.png)
+![images/filter.png](images/filter.png)
 
 ```python
 def is_even(x):
@@ -330,7 +330,7 @@ print(evens)
 
 The built-in [functools.reduce()](https://docs.python.org/3/library/functools.html#functools.reduce) function takes a function and a list of values, and applies the function to each value in the list, *accumulating a single result* as it goes.
 
-![image.png](image%203.png)
+![images/reduce.png](images/reduce.png)
 
 ```python
 # import functools from the standard library
