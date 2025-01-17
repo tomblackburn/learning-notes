@@ -1,11 +1,11 @@
 # Table of Contents
 - [Python](python)
-    - [Functional Programming](python/functional_programming.md)
+    - [Functional Programming](python/functional-programming.md)
     - [Object Orientated Programming](python/oop.md)
     - [The Zen of Python](python/zen-of-python.md)
 - [Git](git)
-    -[Git Basics](git/git_part_1.md)
-    -[Advanced Git]() << Coming Soon
+    - [Git Basics](git/git_part_1.md)
+    - [Advanced Git]() << Coming Soon
 
 This repository contains my personal coding notes and snippets, organized by language and topic. It's pretty much just a dump of information at the moment, but I'll come back and tidy it up later
 
